@@ -20,7 +20,14 @@
 {{ with site.Params.author }}
 <meta name="author" content="{{ . }}">{{ end }}
 {{ hugo.Generator }}
-  
+
+<!-- rss feed -->
+{{ range .AlternativeOutputFormats -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ end -}}
+
+<!-- theme meta -->
+<meta name="theme-name" content="airspace-hugo" />
 <!-- theme meta -->
 <meta name="theme-name" content="airspace-hugo" />
 
