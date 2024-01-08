@@ -4,8 +4,8 @@
 <h2 align=center> <a target="_blank" href="https://demo.gethugothemes.com/airspace" rel="nofollow">👀Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fdemo.gethugothemes.com%2Fairspace%2Fsite%2F&form_factor=desktop">Page Speed (95%)🚀</a></h2>
 
 <p align=center>
-  <a href="https://github.com/gohugoio/hugo/releases/tag/v0.87.0" alt="Contributors">
-    <img src="https://img.shields.io/static/v1?label=min-HUGO-version&message=0.87.0&color=f00&logo=hugo" />
+  <a href="https://github.com/gohugoio/hugo/releases/tag/v0.115.1" alt="Contributors">
+    <img src="https://img.shields.io/static/v1?label=min-HUGO-version&message=0.115.1&color=f00&logo=hugo" />
   </a>
 
   <a href="https://github.com/themefisher/airspace-hugo/blob/master/LICENSE">
@@ -63,25 +63,15 @@
 # clone the repository
 git clone git@github.com:themefisher/airspace-hugo.git
 
-# cd in the project directory
-$ cd airspace-hugo/exampleSite/
+# setup project
+$ npm run project-setup
 
 # Start local dev server
-$ hugo server --themesDir ../..
+$ npm run dev
 ```
 
 Or Check out [Full Documentation](https://docs.gethugothemes.com/airspace/?ref=github).
 
-## 📋Content Management System
-
-[![import to
-Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=themefisher/airspace-hugo&engine=hugo&version=0.87.0)
-
-This project has been pre-configured to work with [Forestry](https://forestry.io) a git-based CMS, [import your
-repository in Forestry](https://app.forestry.io/quick-start?repo=themefisher/airspace-hugo&engine=hugo&version=0.87.0) and
-you will be able to edit and preview your site ✨.
-
-Any changes you make in Forestry will be committed back to the repo and deployed if you use [Netlify](#netlify).
 
 ## ⚙️Deployment and hosting
 
@@ -89,11 +79,6 @@ Any changes you make in Forestry will be committed back to the repo and deployed
 Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/themefisher/airspace-hugo)
 
 Follow the steps.
-
-## 🎥Prefer a video? (Hugo + Netlify + Forestry)
-
-Build your website with **Airspace Hugo** theme by following these easy steps (No Coding Required!)
-[Video Tutorial](https://youtu.be/ResipmZmpDU).
 
 <!-- reporting issue -->
 ## 🐞Reporting Issues
